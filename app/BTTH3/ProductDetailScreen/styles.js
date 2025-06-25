@@ -9,7 +9,7 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.3)',
+    backgroundColor: 'rgba(0,0,0,0.3)'
   },
   modalView: {
     backgroundColor: 'white',
@@ -20,9 +20,7 @@ export default StyleSheet.create({
   },
   image: {
     width: deviceWidth - 20,
-    height: deviceWidth - 20,
-    marginBottom: 16,
-    resizeMode: 'contain',
+    height: deviceWidth - 20
   },
   title: {
     fontSize: 20,
