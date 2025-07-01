@@ -16,9 +16,6 @@ export default function App() {
         <Stack.Screen name="LoginScreen" component={LoginScreen} options={{ headerShown: false }} />
         <Stack.Screen name="SignUpScreen" component={SignUpScreen} options={{
           headerShown: false
-          // title: '',
-          // headerBackTitleVisible: false,
-          // headerShadowVisible: false,
         }} />
         <Stack.Screen name="ProductScreen" component={TabNavigator} options={{ headerShown: false }} />
       </Stack.Navigator>
