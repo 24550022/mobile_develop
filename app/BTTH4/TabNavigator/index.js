@@ -12,7 +12,6 @@ export default function TabNavigator() {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         tabBarIcon: ({ focused, color, size }) => {
-          console.log('route', route)
           let iconName;
           if (route.name === 'LoginScreen') {
             iconName = 'home';
