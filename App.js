@@ -3,7 +3,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import LoginScreen from "./app/BTTH4/LoginScreen";
 import SignUpScreen from "./app/BTTH4/SignUpScreen";
-import ProductScreen from "./app/BTTH4/ProductScreen";
 import TabNavigator from "./app/BTTH4/TabNavigator";
 
 //Khai báo
