@@ -7,7 +7,7 @@ import ItemDetailScreen from './ItemDetailScreen';
 
 const Stack = createStackNavigator();
 
-export default function App() {
+export default function KT1Navigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator
