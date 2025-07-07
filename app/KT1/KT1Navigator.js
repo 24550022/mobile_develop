@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import CategoryScreen from './app/KT1/CategoryScreen';
-import ItemScreen from './app/KT1/ItemScreen';
-import ItemDetailScreen from './app/KT1/ItemDetailScreen';
+import CategoryScreen from './CategoryScreen';
+import ItemScreen from './ItemScreen';
+import ItemDetailScreen from './ItemDetailScreen';
 
 const Stack = createStackNavigator();
 
