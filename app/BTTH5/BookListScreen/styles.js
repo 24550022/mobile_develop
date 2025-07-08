@@ -6,7 +6,8 @@ const imageWidth = deviceWidth * 0.2; // 80% of the device width
 export default StyleSheet.create({
     container: {
         flex: 1,
-        padding: 10
+        padding: 10,
+        marginTop: 10
     },
     card: {
         flexDirection: 'row',

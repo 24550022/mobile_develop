@@ -15,7 +15,7 @@ export default function BTTH5Navigator() {
           name="BookList"
           component={BookListScreen}
           options={{
-            title: 'Book List'
+            headerShown: false
           }} />
         <Stack.Screen name="BookDetail"
           component={BookDetailScreen}
