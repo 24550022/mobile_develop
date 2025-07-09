@@ -54,7 +54,6 @@ export default function BookListScreen({ navigation }) {
       />
       <TouchableOpacity onPress={() => navigation.navigate('BookDetail')}>
         <View style={styles.fab}>
-          {/* <Text style={styles.fabIcon}>+</Text> */}
           <AntDesign style={styles.fabIcon} name="plus" size={30} color="black" />
         </View>
       </TouchableOpacity>

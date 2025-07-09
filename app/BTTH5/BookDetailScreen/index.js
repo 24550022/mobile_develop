@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextInput, Button, Alert, ScrollView, TouchableOpacity, Text } from 'react-native';
+import { TextInput, Alert, ScrollView, TouchableOpacity, Text } from 'react-native';
 import axios from 'axios';
 import styles from './styles';
 
